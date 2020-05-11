@@ -5,6 +5,8 @@
 [![DRY pattern](https://img.shields.io/badge/DRY-true-brightgreen)]()
 [![Testing](https://img.shields.io/badge/Total%20tests-1-blue)]()
 
+### This project is designed to update the story in List.am
+
 ```sh
 .
 │   .editorconfig                       # Editor config file
@@ -25,7 +27,6 @@
 │   │   index.js                        # Index entry point
 │   │
 │   ├───config                          # Configuration files
-│   │       data.json
 │   │       index.js
 │   │
 │   ├───core                            # Business logic implementation
