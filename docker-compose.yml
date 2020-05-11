@@ -1,11 +1,5 @@
 version: "2"
 services:
-  nats:
-    image: nats:latest
-    hostname: "nats"
-    ports:
-      - "4222:4222"
-      - "5222:5222"
   redis:
     hostname: redis
     image: redis:4.0.5-alpine

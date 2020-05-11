@@ -1,4 +1,4 @@
-# Infrastructure
+# List
 
 [![Node](https://img.shields.io/badge/node--lts-v12.16.3-brightgreen)]()
 [![KISS pattern](https://img.shields.io/badge/KISS-true-yellow)]()
@@ -45,9 +45,7 @@
 │           index.js
 │
 ├───test                                # Testing
-│       test.js
-│
-└───utils                               # Other
+
 ```
 
 ```sh
@@ -62,13 +60,7 @@ $yarn run start
 [NPM](https://www.npmjs.com/)
 [Koa](https://koajs.com/)
 [Express](https://expressjs.com/)
-[MongoDB](https://www.mongodb.com/)
-[Redis](https://redis.io/)
-[MySQL](https://www.mysql.com/)
-[PostgreSQL](https://www.postgresql.org/)
 [Typescript](https://www.typescriptlang.org/)
-[pm2](https://pm2.keymetrics.io/)
-[NATS](https://nats.io/)
 [Docker](https://www.docker.com/)
 [Prettier](https://prettier.io/)
 [esLint](https://eslint.org/)
