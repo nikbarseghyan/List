@@ -1,0 +1,25 @@
+version: "2"
+services:
+  nats:
+    image: nats:latest
+    hostname: "nats"
+    ports:
+      - "4222:4222"
+      - "5222:5222"
+  redis:
+    hostname: redis
+    image: redis:4.0.5-alpine
+    ports:
+      - "$REDIS_PORT:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+  postgres:
+    hostname: "postgres"
+    ports:
+      - "$POSTGRES_PORT:5432"
+    restart: always
+    image: postgres:11.2-alpine
+  mongodb:
+    hostname: "mongodb"
+    image: mongo:latest
+    ports:
+      - "$MONGODB_PORT:27017"
