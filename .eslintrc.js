@@ -2,6 +2,8 @@ module.exports = {
     "env": {
         "browser": true,
         "commonjs": true,
+        "jest": true,
+        "node": true,
         "es6": true
     },
     "extends": "eslint:recommended",
@@ -13,7 +15,6 @@ module.exports = {
         "ecmaVersion": 2018
     },
     "rules": {
-      "semi": ["error", "always"],
-      "quotes": ["error", "double"]
+      "semi": ["error", "always"]
     }
 };
