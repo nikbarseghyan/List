@@ -25,12 +25,16 @@
         "port": "8080"
     },
     "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
         "compression": "^1.7.4",
         "debug": "^4.1.1",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "got": "^11.1.0",
-        "mongoose": "^5.9.12"
+        "mongoose": "^5.9.12",
+        "node-html-parser": "^1.2.16",
+        "tough-cookie": "^4.0.0",
+        "tough-cookie-file-store": "^2.0.1"
     },
     "devDependencies": {
         "babel-eslint": "^10.1.0",
