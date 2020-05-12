@@ -1,7 +1,7 @@
 const got = require('got');
 const cheerio = require('cheerio');
 const {CookieJar} = require('tough-cookie');
-const CookieFileStore = require('tough-cookie-file-store').FileCookieStore
+const CookieFileStore = require('tough-cookie-file-store').FileCookieStore;
 
 const cookieJar = new CookieJar(new CookieFileStore('./cookie.json'));
 

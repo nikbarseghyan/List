@@ -31,19 +31,6 @@
 │   │
 │   ├───core                            # Business logic implementation
 │   │       index.js
-│   │
-│   ├───db                              # Data access stuff
-│   │   │   index.js
-│   │   │
-│   │   ├───migrations                  # Migrations
-│   │   └───models                      # Database models
-│   ├───routes                          # Routes
-│   │   │   index.js
-│   │   │
-│   │   ├───controllers                 # Request managers
-│   │   └───middelewares                # Request middlewares
-│   └───services                        # External services implementation
-│           index.js
 │
 ├───test                                # Testing
 
