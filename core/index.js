@@ -25,8 +25,8 @@ async function getLoginData() {
       console.log(timestamp);
 
       const searchParams = new URLSearchParams({
-        your_email: "barsegyan.93@bk.ru",
-        password: "andriell93",
+        your_email: procces.env.your_email,
+        password: process.env.password,
         timestamp,
         _form_action: "Login",
         loginform_visited: 1
