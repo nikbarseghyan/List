@@ -30,7 +30,7 @@
         "debug": "^4.1.1",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
-        "got": "^11.1.0",
+        "got": "^11.8.5",
         "mongoose": "^5.9.12",
         "node-html-parser": "^1.2.16",
         "tough-cookie": "^4.0.0",
